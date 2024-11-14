@@ -81,6 +81,9 @@ const removeTask = (taskId) => {
     const button = li.getElementsByTagName('button')[0]; // Acessa o primeiro botão (assumindo que existe apenas um)
     li.removeChild(button); // Remove o botão do li
 
+    const descricao = li.getElementsByTagName('h2')[0];
+    descricao.classList.add('finished');
+
     const img = document.createElement('img');
     img.src = './assets/checked.svg';
     img.classList.add('centralizaButton');
