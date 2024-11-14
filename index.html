@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
+    <title>Gerenciador de Tarefas</title>
+</head>
+<body>
+    <main>
+        <h1>Board de tarefas</h1>
+        <form id="form">
+            <input type="text" id="description" name="newTask" placeholder="Nova tarefa" required>
+            <input type="text" id="label" name="label" placeholder="Etiqueta" required>
+            <button type="submit" id="save-task" name="enviar" aria-label="Carastrar tarefa">+</button>
+        </form>
+        <ul id="taskList">
+            <!--<li id="card">
+                <div>
+                    <h2>Implementar tela de listagem de tarefas</h2> class="finished" 
+                    <div>
+                        <div>frontend</div>
+                        <p>Criado em: 21/08/2024</p>
+                    </div>
+                </div>
+                <button class="centralizaButton" >Concluir</button>
+            </li> -->
+        </ul>
+        <footer>
+            <p id="goal-tasks"></p>
+        </footer>
+    </main>
+</body>
+</html>
