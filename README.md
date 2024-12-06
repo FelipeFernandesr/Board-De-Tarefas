@@ -42,7 +42,6 @@
 
 <h2 id="started">🚀 Getting started</h2>
 
-Here you describe how to run your project locally
 
 <h3>Prerequisites</h3>
 
@@ -98,6 +97,10 @@ Special thank you for all people that contributed for this project.
     </td>
   </tr>
 </table>-->
+
+<h2 id="routes">📍 Important </h2>
+
+This application uses local storage for data persistence.
 
 <h2 id="contribute">📫 Contribute</h2>
 
