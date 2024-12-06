@@ -100,7 +100,10 @@ Special thank you for all people that contributed for this project.
 
 <h2 id="routes">📍 Important </h2>
 
-This application uses local storage for data persistence.
+This application uses browser's local storage for data persistence.
+Below are some example images.
+![Array](https://github.com/user-attachments/assets/b251bdf6-af33-49ba-9b31-7e334a9ddc91)
+![imgLocalStorage](https://github.com/user-attachments/assets/e081cf43-070e-462c-9fae-7ec483b22853)
 
 <h2 id="contribute">📫 Contribute</h2>
 
